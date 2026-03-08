@@ -65,15 +65,15 @@ connection string : mongodb+srv://nivedkrishna789_db_user:<db_password>@cluster0
       ====================================================================================
          >> Set env var from bash terminal: <<
                  >> Check env var from bash terminal: <<
-         echo $AWS_ACCESS_KEY_ID
-         echo $AWS_SECRET_ACCESS_KEY
+         echo $AWS_ACCESS_ KEY_ID
+         echo $AWS_SECRET_ ACCESS_KEY
 
          >> Set env var from powershell terminal: <<
-         $env:AWS_ACCESS _KEY_ID="AWS_ACCESS_KEY_ID"
-         $env:AWS_SECRET _ACCESS_KEY="AWS_SECRET_ACCESS_KEY"
+         $env:AWS_ACCESS _KEY_ID="AWS_ACCESS_ KEY_ID"
+         $env:AWS_SECRET _ACCESS_KEY="AWS_SECRET _ACCESS_KEY"
          >> Check env var from powershell terminal: <<
-         echo $env:AWS_ACCESS_KEY_ID
-         echo $env:AWS_SECRET_ACCESS_KEY
+         echo $env:AWS_ACCESS_ KEY_ID
+         echo $env:AWS_SECRET_ ACCESS_KEY
       ====================================================================================
       * Now add the access key, secret key, region name to constants.__init__.py
       * Add code to src.configuration.aws_connection.py file (To work with AWS S3 service)
@@ -130,8 +130,8 @@ connection string : mongodb+srv://nivedkrishna789_db_user:<db_password>@cluster0
         >> If you do ctrl+c on EC2 server then runner will shut then restart with "./run.sh"
 
 30. Setup your Github secrets: (Github project>Settings>SecretandVariable>Actions>NewRepoSecret)
-      AWS_ACCESS_KEY_ID
-      AWS_SECRET_ACCESS_KEY
+      AWS_ACCE SS_KEY_ID
+      AWS_SECRE T_ACCESS_KEY
       AWS_DEFAULT_REGION
       ECR_REPO
 
