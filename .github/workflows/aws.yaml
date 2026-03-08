@@ -1,7 +1,7 @@
 name: Deploy Application Docker Image to EC2 instanc
 on:
   push:
-    branches: [main]             
+    branches: [master]             
 jobs:
   Continuous-Integration:
     runs-on: ubuntu-lates
