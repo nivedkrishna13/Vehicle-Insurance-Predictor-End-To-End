@@ -70,6 +70,8 @@ connection string : mongodb+srv://nivedkrishna789_db_user:<db_password>@cluster0
          >> Set env var from powershell terminal: <<
          $env:AWS_ACCESS _KEY_ID="AWS_ACCESS_ KEY_ID"
          $env:AWS_SECRET _ACCESS_KEY="AWS_SECeET _ACCESS_KEY"
+
+         
          >> Check env var from powershell terminal: <<
          echo $env:AWS_ACCESS_ KEY_ID
          echo $env:AWS_SECRET_ ACESS_KEY
