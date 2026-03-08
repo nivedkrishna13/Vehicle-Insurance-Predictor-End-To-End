@@ -19,7 +19,9 @@
 11. Dataset added to notebook folder
 12. Push your data to mongoDB database from your python notebook.
 13. Go to mongoDB Atlas >> Database >> browse collection >> see your data in key value format
-
+nivedkrishna789_db_user
+h10pkHgwM3NYW0x4
+connection string : mongodb+srv://nivedkrishna789_db_user:<db_password>@cluster0.hvi94ds.mongodb.net/?appName=Cluster0
 -------------------------------------- logging, exception and notebooks --------------------------------------
 14. Write the logger file and test it on demo.py
 15. Write the exception file and test it on demo.py
@@ -63,8 +65,8 @@
       * Set env variables with above csv values using below method:
       ====================================================================================
          >> Set env var from bash terminal: <<
-         export AWS_ACCESS_KEY_ID="AWS_ACCESS_KEY_ID"
-         export AWS_SECRET_ACCESS_KEY="AWS_SECRET_ACCESS_KEY"
+         export AWS_ACCESS_KEY_ID="AKIA4BMIUNPQRALRMTXC"
+         export AWS_SECRET_ACCESS_KEY="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"
          >> Check env var from bash terminal: <<
          echo $AWS_ACCESS_KEY_ID
          echo $AWS_SECRET_ACCESS_KEY
