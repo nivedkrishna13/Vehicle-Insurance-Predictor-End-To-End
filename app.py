@@ -26,6 +26,8 @@ templates = Jinja2Templates(directory='templates')
 origins = ["*"]
 
 # Configure middleware to handle CORS, allowing requests from any origin
+
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,
