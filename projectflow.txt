@@ -65,9 +65,7 @@ connection string : mongodb+srv://nivedkrishna789_db_user:<db_password>@cluster0
       * Set env variables with above csv values using below method:
       ====================================================================================
          >> Set env var from bash terminal: <<
-         export AWS_ACCESS_KEY_ID="AKIA4BMIUNPQRALRMTXC"
-         export AWS_SECRET_ACCESS_KEY="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"
-         >> Check env var from bash terminal: <<
+                 >> Check env var from bash terminal: <<
          echo $AWS_ACCESS_KEY_ID
          echo $AWS_SECRET_ACCESS_KEY
 
@@ -106,6 +104,7 @@ connection string : mongodb+srv://nivedkrishna789_db_user:<db_password>@cluster0
       * Now create one ECR repo to store/save docker image:
         AWS console >> Go to ECR >> Region: us-east-1 >> Hit create repository >>
         repo name: vehicleproj >> hit create repository >> copy and keep uri
+        URI = 827604626401.dkr.ecr.us-east-1.amazonaws.com/vehicle_insurance
       * Now create EC2 Ubuntu server >> AWS console >> EC2 >> Launch Instance >> name: vehicledata-machine
         >> Image: Ubuntu >> AMI: Ubuntu Server 24.04 (free tier) >> Instance: T2 Medium (~chargeable-3.5rs/hr)
         >> create new key pair (name: proj1key) >> allow for https and http traffic >> storage: 30gb >> Launch
